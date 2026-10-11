@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Stream - West Norwood Mosque</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Fullscreen Background */
+.stream-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Fullscreen height */
+    width: 100vw;  /* Fullscreen width */
+    background: #333333; /* Dark minimalist background */
+    color: white;
+    text-align: center;
+}
+
+/* Minimalist Stream Box */
+.live-stream-box {
+    width: 90%;
+    max-width: 100%;
+    padding: 30px;
+    background: #333333;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Headings & Text */
+.live-stream-box h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.live-stream-box p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+/* Clean Audio Player */
+audio {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Stream Note */
+.stream-note {
+    font-size: 14px;
+    color: #999;
+    margin-top: 15px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .live-stream-box {
+        padding: 20px;
+    }
+    .live-stream-box h2 {
+        font-size: 22px;
+    }
+    .live-stream-box p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .live-stream-box {
+        padding: 15px;
+    }
+    .live-stream-box h2 {
+        font-size: 20px;
+    }
+    .live-stream-box p {
+        font-size: 14px;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <main class="stream-container">
+        <div class="overlay"></div> <!-- Neon Overlay -->
+        <div class="live-stream-box">
+            <h2>🔊 West Norwood Mosque Live Stream</h2>
+            <p>Listen to daily prayers, Friday sermons, and special events live from West Norwood Mosque.</p>
+
+            <div class="audio-wrapper">
+                <audio controls autoplay>
+                    <source src="http://stream.aartifex.com/mosque.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <p class="stream-note"><strong>Note:</strong> The stream may briefly pause during prayers.</p>
+        </div>
+    </main>
+
+</body>
+</html>

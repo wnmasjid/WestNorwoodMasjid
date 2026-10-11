@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>West Norwood Mosque</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/logo.ico">
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>West Norwood Mosque</h1>
+
+        
+        <!-- Hamburger Menu Icon -->
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <!-- Navigation Menu -->
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#live-stream">Live Stream</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#prayer-times">Prayer Times</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+    <!-- Welcome Section -->
+    <section id="welcome">
+        <div class="container">
+        	<!-- <img src="assets/banner.jpg" alt="Mosque Banner" style="width: 100%; height: auto;"> -->
+            <h2>Welcome to West Norwood Mosque</h2>
+            <p>A peaceful place of worship and community in West Norwood.</p>
+            <a href="#prayer-times" class="cta-button">See Prayer Times</a>
+        </div>
+    </section>
+        <!-- <section id="live-stream">
+            <div class="container">
+               
+                
+                <h2>Live Stream</h2>
+                <p>Join our live stream for daily prayers, Friday sermons, and special events.</p>
+                <audio controls>
+                    <source src="http://stream.aartifex.com/mosque.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+                
+            </div>
+
+             <!-- Button linking to dedicated live stream page -->
+             <!-- <a href="stream.html" class="live-stream-button">Go to Live Stream</a>
+        </section> --> -->
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>West Norwood Mosque is a place of worship, peace, and unity in the heart of West Norwood. Our mission is to serve the local community, offering religious guidance, support, and a welcoming environment for everyone. The mosque provides a variety of services and activities, including Islamic education, charitable outreach, and spiritual development programs.</p>
+        </div>
+    </section>
+
+
+
+    <!-- Prayer Times Section -->
+    <section id="prayer-times">
+        <div class="container">
+            <h2>Prayer Times</h2>
+            <!-- MasjidBox Prayer Times Widget -->
+            <script type="text/javascript">
+                (function(w){
+                    function async_load(){
+                        var s=w.document.createElement('script');
+                        s.type='text/javascript';s.async=true;s.defer=true;
+                        s.src='https://masjidbox.com/widgets/loader.js';
+                        var x=w.document.getElementsByTagName('script')[0];
+                        x.parentNode.insertBefore(s,x);
+                    }
+                    if(w.attachEvent)w.attachEvent('onload',async_load);
+                    else w.addEventListener('load',async_load,false);
+                })(window);
+            </script>
+            <a data-masjidbox-widget="XiD7BXDVsNiXnqKChLVMH" data-masjidbox-ifr href="https://masjidbox.com/prayer-times/west-norwood-mosque">Prayer times West Norwood Mosque</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+<section id="services">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <i class="icon">📚</i>
+                <h3>Islamic Classes</h3>
+                <p>We offer Quran and Hadith classes for all ages to deepen your understanding of Islam.</p>
+            </div>
+            <div class="service-item">
+                <i class="icon">💰</i>
+                <h3>Zakat Distribution</h3>
+                <p>We assist with the distribution of Zakat to those in need, ensuring fair and transparent processes.</p>
+            </div>
+            <div class="service-item">
+                <i class="icon">⚰️</i>
+                <h3>Funeral Services</h3>
+                <p>Our mosque provides support and guidance for Islamic funeral rites, ensuring a dignified process.</p>
+            </div>
+            <div class="service-item">
+                <i class="icon">💍</i>
+                <h3>Marriage Services</h3>
+                <p>We facilitate Islamic marriage ceremonies and provide premarital counseling for couples.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="donate">
+    <div class="container">
+        <h2>Support Our Mosque</h2>
+        <p>Your generous donations help us continue serving the community. Please use the bank details below to contribute.</p>
+        <div class="donation-details">
+            <p><strong>Bank Name:</strong> HSBC Bank PLC</p>
+            <p><strong>Account Name:</strong> Croydon Islamic Academy</p>
+            <p><strong>Sort Code:</strong> 40-44-15</p>
+            <p><strong>Account Number:</strong> 91545825</p>
+        </div>
+        <p>May Allah reward you for your generosity.</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, need assistance, or want to get in touch with us, please use the contact information below or fill out the contact form.</p>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h3>Email</h3>
+                <p><a href="mailto:admin@westnorwoodmosque.com">admin@westnorwoodmosque.com</a></p>
+            </div>
+            <div class="contact-info">
+                <h3>Phone</h3>
+                <p><a href="tel:+441234567890">+44 7828 929654</a></p>
+            </div>
+            <div class="contact-info">
+                <h3>Address</h3>
+                <p>58-60 Norwood High St, Norwood, London, SE27 9NW</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="map">
+    <div class="container">
+        <h2>Find Us</h2>
+        <!-- Google Map Embed -->
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d84287.35125308763!2d-0.18944305541538356!3d51.42909909657933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x487606a9cf45c8cd%3A0x9f4f8674cae40f8b!2s58-60%20Norwood%20High%20St%2C%20Norwood%2C%20London%20SE27%209NW!3m2!1d51.4299806!2d-0.1016796!5e0!3m2!1sen!2suk!4v1729382841221!5m2!1sen!2suk" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+</section>
+
+
+
+  <!-- Footer Section -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-about">
+                <h3>West Norwood Mosque</h3>
+                <p>A welcoming place of worship for the West Norwood community, promoting peace, unity, and understanding.</p>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:westnorwoodmosque@hotmail.com">westnorwoodmosque@hotmail.com</a></p>
+                <p>Phone: <a href="tel:+441234567890">+44 7460 187868</a></p>
+                <p>Address: 58-60 Norwood High St, Norwood, London, SE27 9NW</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#welcome">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#prayer-times">Prayer Times</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 West Norwood Mosque | All Rights Reserved</p>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- Smooth Scroll -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+      const mobileMenu = document.getElementById('mobile-menu');
+    const navMenu = document.getElementById('nav-menu');
+
+    mobileMenu.addEventListener('click', () => {
+        navMenu.classList.toggle('show');
+        mobileMenu.classList.toggle('change');
+    });
+
+
+    </script>
+</body>
+</html>
